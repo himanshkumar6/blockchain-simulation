@@ -71,6 +71,6 @@ Returns the entire blockchain.
     },
     "previousHash": "...",
     "hash": "...",
-    "nonce": ...
+    "nonce": "..."
   }
 }
