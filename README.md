@@ -74,3 +74,12 @@ Returns the entire blockchain.
     "nonce": "..."
   }
 }
+
+```
+![Screenshot 2025-04-08 003632](https://github.com/user-attachments/assets/dacc0618-39ef-4bf6-8081-98d37224ee44)
+
+![Screenshot 2025-04-07 224947](https://github.com/user-attachments/assets/cb985552-b9ec-47ea-97f4-5f5989da0969)
+
+![Screenshot 2025-04-07 225001](https://github.com/user-attachments/assets/d86f5232-886a-4e53-b41e-79fc2b9ee7af)
+
+
