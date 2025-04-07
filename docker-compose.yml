@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    restart: always
+
+  frontend:
+    build: ./frontend/blockchain-simulation
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend/blockchain-simulation:/app
+    restart: always
+    depends_on:
+      - backend
