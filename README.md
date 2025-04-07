@@ -41,5 +41,36 @@ Returns the entire blockchain.
     "hash": "...",
     "nonce": "0"
   },
-  ...
 ]
+```
+### POST /api/mine
+Returns the entire blockchain.
+
+*Response:*
+```json
+{
+  "transaction": {
+    "from": "Alice",
+    "to": "Bob",
+    "amount": 50
+  }
+}
+
+```
+*Response:*
+```json
+{
+  "message": "Block mined successfully",
+  "block": {
+    "index": 2,
+    "timestamp": "...",
+    "transactions": {
+      "from": "Alice",
+      "to": "Bob",
+      "amount": 50
+    },
+    "previousHash": "...",
+    "hash": "...",
+    "nonce": ...
+  }
+}
